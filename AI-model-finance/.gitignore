@@ -1,0 +1,80 @@
+
+---
+
+### 📦 `.gitignore`
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+env/
+ENV/
+
+# Data & Models (тяжёлые артефакты, хранятся локально)
+data/
+models/
+*.parquet
+*.pkl
+*.joblib
+*.pth
+*.onnx
+*.h5
+*.bin
+*.model
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter & Streamlit
+.ipynb_checkpoints/
+.streamlit/
+
+# Logs & Runtime
+logs/
+*.log
+status.json
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.secret
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# Python distribution
+dist/
+*.egg-info
+*.egg
